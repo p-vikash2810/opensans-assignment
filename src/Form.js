@@ -19,7 +19,7 @@ const Form = () => {
 
   return (
     <>
-      <form className="form" noValidate>
+      <div className="form" >
         <h1>Form Validation</h1>
 
         <label>Name</label>
@@ -97,7 +97,7 @@ const Form = () => {
             Submit
           </button>
         </div>
-      </form>
+      </div>
     </>
   );
 };

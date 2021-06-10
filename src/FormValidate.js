@@ -99,8 +99,7 @@ const FormValidate = () => {
     phoneError,
   ]);
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
+  const handleSubmit = () => {
     localStorage.setItem("formData", JSON.stringify(values));
     resetForm();
   };
